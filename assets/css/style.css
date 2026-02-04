@@ -1,0 +1,10 @@
+/*
+ * Arquivo CSS Principal
+ * Este arquivo apenas importa os outros arquivos de estilo.
+ * Decidi fazer assim para uma melhor organização
+*/
+
+@import url('_base.css');
+@import url('_layout.css');
+@import url('_components.css');
+@import url('_pages.css');

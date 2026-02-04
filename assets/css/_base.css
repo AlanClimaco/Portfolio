@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+/* --- Variáveis Globais de Design: MODERN & CENTERED DARK MODE --- */
+:root {
+    /* Paleta de Cores */
+    --cor-fundo: #111111;
+    --cor-texto: #E0E0E0;
+    --cor-destaque: #00BFFF;
+    --cor-superficie: #1A1A1A;
+    --cor-borda: #333333;
+
+    /* Tipografia */
+    --fonte-padrao: 'Inter', sans-serif;
+}
+
+/* --- Reset Básico e Padrões Globais --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-padrao);
+    line-height: 1.8;
+    color: var(--cor-texto);
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Estilo padrão para links */
+a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    filter: brightness(1.2);
+}
+
+/* Estilo padrão para títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+h1 { font-size: clamp(2.5rem, 6vw, 4rem); }
+h2 { font-size: clamp(2rem, 5vw, 3rem); }

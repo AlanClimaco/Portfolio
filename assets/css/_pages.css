@@ -1,0 +1,232 @@
+.page-header, .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/background.png');
+}
+
+.page-header::before, .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.page-header .container, .hero .container, 
+.page-header h1, .page-header .page-intro,
+.hero h1, .hero .subtitle, .hero .cta-button {
+    position: relative;
+    z-index: 2;
+}
+
+.page-header h1, .hero h1 {
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.page-header .page-intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: var(--cor-texto);
+    line-height: 1.8;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero {
+    min-height: 70vh;
+}
+
+.hero .subtitle {
+    font-size: 1.25rem;
+    color: var(--cor-texto);
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.journey {
+    border-top: 1px solid var(--cor-borda);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.journey h2, .skills h2 {
+    margin-bottom: 60px;
+}
+
+.journey .cta-button {
+    margin-top: 50px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    border-left: 3px solid var(--cor-borda);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -31.5px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--cor-superficie);
+    border: 3px solid var(--cor-borda);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.timeline-item:hover::before {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.timeline-item .item-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.timeline-item .item-subtitle {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.timeline-item .item-icon {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills-grid span {
+    background: var(--cor-superficie);
+    border: 1px solid var(--cor-borda);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.skills-grid span:hover {
+    color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+}
+
+.cta-section {
+    background-color: var(--cor-superficie);
+    text-align: center;
+}
+
+.cta-section h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    margin-bottom: 2rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+}
+
+@media (min-width: 900px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contact-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: var(--cor-superficie);
+    padding: 50px;
+    border-radius: 12px;
+    border: 1px solid var(--cor-borda);
+}
+
+.github-showcase {
+    background-color: var(--cor-superficie);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.github-showcase h2 {
+    margin-bottom: 20px;
+}
+
+.github-intro {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+.github-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+}
+
+.github-stats img {
+    width: 100%;
+}
+
+/* --- Estilos Específicos da Página Sobre Mim (Home) --- */
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.about-text strong { 
+    color: var(--cor-destaque); 
+}
