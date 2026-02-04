@@ -25,10 +25,10 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
   - [assets/](./assets/)
     - [css/](./assets/css/)
       - [style.css](./assets/css/style.css) - Hub de imports
-      - [_base.css](./assets/css/_base.css) - Variáveis e Reset
-      - [_layout.css](./assets/css/_layout.css) - Header e Footer
-      - [_components.css](./assets/css/_components.css) - Botões e Cards
-      - [_pages.css](./assets/css/_pages.css) - Estilos das seções
+      - [base.css](./assets/css/base.css) - Variáveis e Reset
+      - [layout.css](./assets/css/layout.css) - Header e Footer
+      - [components.css](./assets/css/components.css) - Botões e Cards
+      - [pages.css](./assets/css/pages.css) - Estilos das seções
     - [img/](./assets/img/)
       - [projetos/](./assets/img/projetos/) - Screenshots
     - [js/](./assets/js/)
