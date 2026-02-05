@@ -84,28 +84,37 @@ header .logo img {
     margin: 20px 0;
 }
 
+/* --- Links do Menu --- */
 .menu-principal a {
     font-size: 2rem;
     font-weight: 900;
     color: #FFFFFF;
-}
-
-/* --- Estado Ativo do Menu --- */
-.menu-principal a.active {
-    color: var(--cor-destaque);
     position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
 }
 
-.menu-principal a.active::after {
+/* --- Animação da Barra --- */
+.menu-principal a::after {
     content: '';
-    display: block;
-    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
     height: 2px;
     background: var(--cor-destaque);
-    position: absolute;
-    bottom: -5px;
-    left: 0;
     box-shadow: 0 0 10px var(--cor-destaque);
+    transition: width 0.4s ease;
+}
+
+/* --- Estado Ativo e Hover --- */
+.menu-principal a.active {
+    color: var(--cor-destaque);
+}
+
+.menu-principal a.active::after,
+.menu-principal a:hover::after {
+    width: 100%;
 }
 
 /* --- Rodapé --- */
