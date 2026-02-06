@@ -22,7 +22,7 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
   - [assets/](./assets/)
     - [css/](./assets/css/)
       - [style.css](./assets/css/style.css) - Hub de imports
-      - [base.css](./assets/css/base.css) - Variáveis e Reset
+      - [base.css](./assets/css/base.css) - Variáveis, Reset e Scrollbar Personalizada
       - [layout.css](./assets/css/layout.css) - Header (com animações) e Footer
       - [components.css](./assets/css/components.css) - Botões e Cards
       - [pages.css](./assets/css/pages.css) - Estilos específicos das seções
@@ -30,6 +30,7 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
       - [projetos/](./assets/img/projetos/) - Screenshots dos projetos
     - [js/](./assets/js/)
       - [main.js](./assets/js/main.js) - Lógica de Scroll Spy, Menu Mobile e Validação
+      - [language.js](./assets/js/language.js) - Sistema de tradução e dicionário (PT/EN)
 
 ## Funcionalidades Implementadas
 
@@ -51,6 +52,11 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
 - Validação via JavaScript no lado do cliente (Client-side validation).
 - Verificação de campos vazios e formato de e-mail.
 - Feedback visual através de um Modal (Pop-up) customizado para sucesso ou erro, com simulação de tempo de envio.
+
+### 5. Internacionalização (i18n)
+- Suporte completo a dois idiomas: **Português (PT)** e **Inglês (EN)**.
+- Troca de idioma dinâmica sem recarregar a página (DOM Manipulation).
+- Persistência da preferência do usuário via `localStorage`.
 
 ## Projetos Destacados
 

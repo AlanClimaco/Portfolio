@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Sobre
             "about_title": "Sobre Mim",
             "about_p1": "Sou estudante de <strong>Engenharia de Software na UNINTER</strong> e técnico em <strong>Informática pelo IFRO (Instituto Federal de Rondônia)</strong>. Minha atuação é focada no desenvolvimento de soluções <strong>Mobile (Android)</strong> e <strong>Web</strong>, com sólido conhecimento em redes de computadores e infraestrutura.",
+            "about_personal": "Tenho 18 anos e moro em Rondônia. Nos momentos livres, gosto de jogar, ler e assistir séries. Também gosto muito de ouvir música, especialmente Paramore.",
             "about_p2": "Estou sempre buscando aprender e colaborar em projetos inovadores. Atualmente, estou disponível para novos desafios e oportunidades profissionais no desenvolvimento de software.",
             
             // Destaques GitHub
@@ -39,6 +40,11 @@ document.addEventListener('DOMContentLoaded', function() {
             "edu_interest_title": "Interesse em Desenvolvimento",
             "edu_interest_sub": "Aprendizado Contínuo",
             "edu_interest_desc": "Foco constante em desenvolvimento <strong>web</strong> com React.js e Node.js, e em desenvolvimento <strong>mobile</strong> com <strong>Flutter (Dart)</strong>, buscando sempre as tecnologias mais atuais do mercado.",
+            
+            "edu_lang_title": "Idiomas",
+            "edu_lang_sub": "Leitura Técnica",
+            "edu_lang_desc": "Português nativo. Inglês e Espanhol em nível básico, focados na leitura de documentações técnicas.",
+
             "btn_resume": "Ver Currículo em PDF",
 
             // Skills
@@ -103,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // About
             "about_title": "About Me",
             "about_p1": "I am a <strong>Software Engineering student at UNINTER</strong> and hold a <strong>Technical Diploma in Informatics from IFRO (Federal Institute of Rondônia)</strong>. My focus is on developing <strong>Mobile (Android)</strong> and <strong>Web</strong> solutions, with solid knowledge in computer networks and infrastructure.",
+            "about_personal": "I am 18 years old and live in Rondônia. In my free time, I enjoy gaming, reading, and watching series. I also love listening to music, especially Paramore.",
             "about_p2": "I am always seeking to learn and collaborate on innovative projects. Currently available for new challenges and professional opportunities in software development.",
             
             // GitHub Highlights
@@ -126,6 +133,11 @@ document.addEventListener('DOMContentLoaded', function() {
             "edu_interest_title": "Development Interests",
             "edu_interest_sub": "Continuous Learning",
             "edu_interest_desc": "Constant focus on <strong>web</strong> development with React.js and Node.js, and <strong>mobile</strong> development with <strong>Flutter (Dart)</strong>, always seeking the most current technologies in the market.",
+            
+            "edu_lang_title": "Languages",
+            "edu_lang_sub": "Technical Reading",
+            "edu_lang_desc": "Native Portuguese. Basic English and Spanish, focused on technical documentation reading.",
+
             "btn_resume": "View Resume in PDF",
 
             // Skills
