@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "channel_linkedin": "Meu LinkedIn",
             
             // Formulário
-            "form_title": "Envie uma Mensagem",
+            "form_title": "Deixe um Recado",
             "form_name": "Nome",
             "form_email": "E-mail",
             "form_msg": "Mensagem",
