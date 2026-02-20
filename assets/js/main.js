@@ -117,12 +117,30 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.disabled = true;
             submitButton.textContent = 'Enviando...';
             
-            setTimeout(function() {
-                showModal(`Obrigado, ${nome}! Mensagem enviada com sucesso!`, 'success');
-                contactForm.reset();
+            const formData = new FormData(contactForm);
+
+            fetch('https://formspree.io/f/mrbljora', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    showModal(`Obrigado, ${nome}! Mensagem enviada com sucesso!`, 'success');
+                    contactForm.reset();
+                } else {
+                    showModal('Houve um erro ao enviar. Tente novamente mais tarde.', 'error');
+                }
+            })
+            .catch(error => {
+                showModal('Erro de conexão. Verifique sua internet.', 'error');
+            })
+            .finally(() => {
                 submitButton.disabled = false;
                 submitButton.textContent = originalButtonText;
-            }, 2000);
+            });
         });
     }
 });
