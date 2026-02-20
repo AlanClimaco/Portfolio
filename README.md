@@ -29,7 +29,7 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
     - [img/](./assets/img/)
       - [projetos/](./assets/img/projetos/) - Screenshots dos projetos
     - [js/](./assets/js/)
-      - [main.js](./assets/js/main.js) - Lógica de Scroll Spy, Menu Mobile e Validação
+      - [main.js](./assets/js/main.js) - Lógica de Scroll Spy, Menu Mobile, Validação e Envio de Formulário
       - [language.js](./assets/js/language.js) - Sistema de tradução e dicionário (PT/EN)
 
 ## Funcionalidades Implementadas
@@ -49,9 +49,9 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
 - Cada card contém imagem de capa, descrição técnica, tags de tecnologias e links para repositório/deploy.
 
 ### 4. Formulário de Contato com Validação
-- Validação via JavaScript no lado do cliente (Client-side validation).
-- Verificação de campos vazios e formato de e-mail.
-- Feedback visual através de um Modal (Pop-up) customizado para sucesso ou erro, com simulação de tempo de envio.
+- Envio Real (AJAX): Integração com Formspree via Fetch API para envio real de mensagens direto para o e-mail, sem recarregar ou redirecionar a página.
+- Validação Client-side: Verificação de campos vazios e formato válido de e-mail via JavaScript antes do envio.
+- Feedback Visual: Modal (Pop-up) customizado que informa o status da requisição (sucesso ou erro) de forma amigável ao usuário.
 
 ### 5. Internacionalização (i18n)
 - Suporte completo a dois idiomas: **Português (PT)** e **Inglês (EN)**.
