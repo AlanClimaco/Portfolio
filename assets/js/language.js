@@ -192,8 +192,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Lógica de troca de idiomas
     const resumeLinks = {
-        "pt": "https://drive.google.com/file/d/1Pcb9G9NFdpc5fTWFFzOMESRFmaKE0k0t/view?usp=sharing",
-        "en": "https://drive.google.com/file/d/11eImaRoYk0RJQK8tJZvsWuomObwrxG5m/view?usp=sharing"
+        "pt": "https://drive.google.com/file/d/1Y41E8-Q7ZqA2zWcmuZji9mYZ3Pvh2OFG/view?usp=sharing",
+        "en": "https://drive.google.com/file/d/1pHhJxOmcp6_XLgMeVSpO3fmMwuhTvRvi/view?usp=sharing"
     };
 
     const flags = {
