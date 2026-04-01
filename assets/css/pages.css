@@ -230,3 +230,25 @@
 .about-text strong { 
     color: var(--cor-destaque); 
 }
+
+/* --- Redes Sociais na Hero Section --- */
+.hero-socials {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.hero-socials a svg {
+    width: 28px;
+    height: 28px;
+    stroke: var(--cor-texto);
+    filter: drop-shadow(0px 6px 9px rgba(0, 0, 0, 0.4));
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-socials a:hover svg {
+    stroke: var(--cor-destaque);
+    transform: translateY(-3px);
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.5));
+}
