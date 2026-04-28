@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // Sobre
             "about_title": "Sobre Mim",
             "about_p1": "Sou estudante de <strong>Engenharia de Software na UNINTER</strong> e técnico em <strong>Informática pelo IFRO (Instituto Federal de Rondônia)</strong>. Minha atuação é focada no desenvolvimento de soluções <strong>Mobile (Android)</strong> e <strong>Web</strong>, com sólido conhecimento em redes de computadores e infraestrutura.",
-            "about_personal": "Tenho 18 anos e moro em Rondônia. Nos momentos livres, gosto de jogar, ler e assistir séries. Também gosto muito de ouvir música, especialmente Paramore.",
             "about_p2": "Estou sempre buscando aprender e colaborar em projetos inovadores. Atualmente, estou disponível para novos desafios e oportunidades profissionais no desenvolvimento de software.",
             
             // Destaques GitHub
@@ -65,6 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_rec_desc": "Ferramenta gráfica de análise forense para recuperação de dados em baixo nível (Raw Drive Analysis).",
             "proj_game_desc": "Catálogo de jogos gratuitos consumindo API em tempo real com filtros.",
             "proj_eletron_desc": "Simulação de e-commerce com carrinho de compras e design moderno.",
+            "proj_mii_title": "MiiSideKick",
+            "proj_mii_desc": "Um assistente de desktop interativo e não-intrusivo. Desenvolvido para ser leve e com design moderno, ele auxilia em rotinas do sistema sem interromper seu fluxo de trabalho.",
             
             // Botões Projetos
             "btn_view_site": "Ver Site",
@@ -109,7 +110,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // About
             "about_title": "About Me",
             "about_p1": "I am a <strong>Software Engineering student at UNINTER</strong> and hold a <strong>Technical Diploma in Informatics from IFRO (Federal Institute of Rondônia)</strong>. My focus is on developing <strong>Mobile (Android)</strong> and <strong>Web</strong> solutions, with solid knowledge in computer networks and infrastructure.",
-            "about_personal": "I am 18 years old and live in Rondônia. In my free time, I enjoy gaming, reading, and watching series. I also love listening to music, especially Paramore.",
             "about_p2": "I am always seeking to learn and collaborate on innovative projects. Currently available for new challenges and professional opportunities in software development.",
             
             // GitHub Highlights
@@ -158,6 +158,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_rec_desc": "Forensic analysis graphical tool for low-level data recovery (Raw Drive Analysis).",
             "proj_game_desc": "Free games catalog powered by a real-time API with filtering features.",
             "proj_eletron_desc": "E-commerce simulation with shopping cart and modern design.",
+            "proj_mii_title": "MiiSideKick",
+            "proj_mii_desc": "An interactive and non-intrusive desktop assistant. Designed to be lightweight and modern, it helps with system routines without interrupting your workflow.",
             
             // Buttons Projects
             "btn_view_site": "View Site",
