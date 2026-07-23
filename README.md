@@ -62,12 +62,12 @@ A arquitetura de pastas foi organizada para separar responsabilidades. Clique no
 
 A seção de portfólio apresenta uma seleção de trabalhos significativos, incluindo projetos pessoais e colaborações profissionais:
 
-1. **Abrigo do Wlad (Web):** Plataforma institucional com foco em performance e SEO (React + Vite).
-2. **Rondônia Turismo (Web):** Aplicação interativa de turismo local com mapas (Front-end).
-3. **Recovery Tool (Desktop):** Ferramenta gráfica de análise forense para recuperação de dados em baixo nível (Python + CustomTkinter).
-4. **MiiSideKick (Desktop):** Assistente de desktop interativo e não-intrusivo para automação de rotinas do sistema (Rust + Tauri).
-5. **Game Browser (Web):** Consumo de API REST para catálogo de jogos em tempo real.
-6. **Eletron Store (Web):** Interface de e-commerce focada em UI/UX moderno.
+1. **Meus Gastos (PWA)** Aplicativo web progressivo para gestão financeira. Desenvolvido com arquitetura offline first.
+2. **Abrigo do Wlad (Web):** Plataforma institucional com foco em performance e SEO (React + Vite).
+3. **Rondônia Turismo (Web):** Aplicação interativa de turismo local com mapas (Front-end).
+4. **Recovery Tool (Desktop):** Ferramenta gráfica de análise forense para recuperação de dados em baixo nível (Python + CustomTkinter).
+5. **MiiSideKick (Desktop):** Assistente de desktop interativo e não-intrusivo para automação de rotinas do sistema (Rust + Tauri).
+6. **Game Browser (Web):** Consumo de API REST para catálogo de jogos em tempo real.
 
 ## Autor
 

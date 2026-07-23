@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "github_title": "Destaques do GitHub",
             "github_intro": "Projetos recentes que demonstram minha capacidade de entregar soluções completas:",
             "btn_repo": "Ver Repositório",
+            "btn_proj": "Ver Projeto",
             "btn_github_full": "Ver GitHub Completo",
             
             // Formação
@@ -55,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Projetos
             "proj_wlad_desc": "Plataforma web oficial para adoção e transparência do abrigo. Desenvolvida com <strong>React e TypeScript</strong>, focando em alta performance. Utiliza <em>Vite</em> para build e <em>CSS Modules</em>.",
-            "proj_notepad_title": "Bloco de Notas App",
-            "proj_notepad_desc": "Aplicativo mobile minimalista para Android e iOS construído com <strong>Flutter</strong>. Possui persistência de dados local e geração dinâmica de imagens para compartilhamento.",
+            "proj_myexpenses_title": "Meus Gastos PWA",
+            "proj_myexpenses_desc": "Aplicativo web progressivo para gestão financeira. Desenvolvido com arquitetura <strong>offline-first</strong>, permite controle de despesas, metas e importação 100% local de extratos bancários.",
             "proj_rotaro_title": "Rondônia Turismo e Pesca",
             "proj_rotaro_desc": "O guia definitivo para explorar Rondônia. Descubra cachoeiras e locais de pesca com mapas interativos.",
             "proj_org_title": "Organizador de Arquivos",
@@ -116,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "github_title": "GitHub Highlights",
             "github_intro": "Recent projects demonstrating my ability to deliver complete solutions:",
             "btn_repo": "View Repository",
+            "btn_proj": "View Project",
             "btn_github_full": "View Full GitHub",
             
             // Education
@@ -149,8 +151,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Projects
             "proj_wlad_desc": "Official web platform for adoption and shelter transparency. Developed with <strong>React and TypeScript</strong>, focusing on high performance. Uses <em>Vite</em> for build and <em>CSS Modules</em>.",
-            "proj_notepad_title": "Notepad App",
-            "proj_notepad_desc": "Minimalist mobile app for Android and iOS built with <strong>Flutter</strong>. Features local data persistence and dynamic image generation for sharing.",
+            "proj_myexpenses_title": "My Expenses PWA",
+            "proj_myexpenses_desc": "A progressive web app for personal finance management. Developed with an <strong>offline-first</strong> architecture, it features expense tracking, financial goals, and 100% local processing of bank statements.",
             "proj_rotaro_title": "Rondônia Tourism & Fishing",
             "proj_rotaro_desc": "The definitive guide to explore Rondônia. Discover waterfalls and fishing spots with interactive maps.",
             "proj_org_title": "File Organizer",
@@ -194,8 +196,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Lógica de troca de idiomas
     const resumeLinks = {
-        "pt": "https://drive.google.com/file/d/1qcqPE4F0TENEZ5sWcJUqQ8sNaW2Rdw2V/view?usp=sharing",
-        "en": "https://drive.google.com/file/d/18Z14AjIRCFQuTbeQm73quNE2TlRC3POO/view?usp=sharing"
+        "pt": "/assets/docs/Alan-do-Nascimento-Climaco.pdf",
+        "en": "/assets/docs/Alan-Climaco.pdf"
     };
 
     const flags = {
