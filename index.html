@@ -24,8 +24,8 @@
             </button>
             <nav class="menu-principal">
                 <ul>
-                    <li><a href="#home" class="active" data-i18n="nav_home">Sobre Mim</a></li>
-                    <li><a href="#formacao" data-i18n="nav_education">Formação</a></li>
+                    <li><a href="#sobre" class="active" data-i18n="nav_about">Sobre Mim</a></li>
+                    <li><a href="#trajetoria" data-i18n="nav_journey">Trajetória</a></li>
                     <li><a href="#portfolio" data-i18n="nav_portfolio">Portfólio</a></li>
                     <li><a href="#contato" data-i18n="nav_contact">Contato</a></li>
                 </ul>
@@ -37,7 +37,7 @@
         <section id="home" class="hero">
             <div class="container">
                 <h1>Alan Clímaco</h1>
-                <p class="subtitle" data-i18n="hero_subtitle">Desenvolvedor de Software Web & Mobile</p>
+                <p class="subtitle" data-i18n="hero_subtitle">Desenvolvedor de Software | Web & Mobile</p>
                 
                 <div style="margin-top: 20px;">
                     <a href="#portfolio" class="cta-button" data-i18n="hero_btn">Ver Portfólio</a>
@@ -56,24 +56,6 @@
                     <a href="mailto:alanclimaco.dev@gmail.com" title="E-mail">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
                     </a>
-                </div>
-            </div>
-        </section>
-
-        <section style="background-color: #161616; padding: 60px 0;">
-            <div class="container">
-                <div class="about-text">
-                    <h2 style="margin-bottom: 30px; color: #fff;" data-i18n="about_title">Sobre Mim</h2>
-                    <p data-i18n="about_p1">
-                        Sou estudante de <strong>Engenharia de Software na UNINTER</strong> e técnico em <strong>Informática pelo IFRO (Instituto Federal de Rondônia)</strong>. 
-                        Minha atuação é focada no desenvolvimento de soluções <strong>Mobile (Android)</strong> e <strong>Web</strong>, 
-                        com sólido conhecimento em redes de computadores e infraestrutura.
-                    </p>
-                    <br>
-                    <p data-i18n="about_p2">
-                        Estou sempre buscando aprender e colaborar em projetos inovadores. 
-                        Atualmente, estou disponível para novos desafios e oportunidades profissionais no desenvolvimento de software.
-                    </p>
                 </div>
             </div>
         </section>
@@ -129,48 +111,61 @@
             </div>
         </section>
 
-        <section id="formacao" style="background-color: #161616; padding: 80px 0; color: #fff;">
+        <section id="sobre" style="background-color: #161616; padding: 60px 0;">
             <div class="container">
-                <div style="text-align: center; margin-bottom: 50px;">
-                    <h2 style="font-size: 2.5rem; margin-bottom: 15px;" data-i18n="edu_title">Minha Formação</h2>
-                    <p style="opacity: 0.8; font-size: 1.1rem;" data-i18n="edu_subtitle">Uma trajetória focada em aprendizado contínuo e aprimoramento técnico.</p>
+                <div class="about-text">
+                    <h2 style="margin-bottom: 30px; color: #fff;" data-i18n="about_title">Sobre Mim</h2>
+                    <p data-i18n="about_p1">
+                        Sou desenvolvedor de software com atuação em desenvolvimento web e mobile, focado em criar aplicações, sistemas e interfaces responsivas com código organizado e soluções práticas.
+                    </p>
+                    <br>
+                    <p data-i18n="about_p2">
+                        Também atuo em projetos independentes e freelance, desenvolvendo soluções sob medida para necessidades reais. Minha trajetória combina experiência prática, formação acadêmica e base técnica, e estou disponível para projetos freelance e novas colaborações.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="trajetoria" class="trajectory-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 data-i18n="journey_title">Minha Trajetória</h2>
+                    <p data-i18n="journey_subtitle">Experiência profissional e formação que construíram minha atuação em desenvolvimento de software.</p>
                 </div>
 
                 <div class="timeline">
                     <div class="timeline-item">
-                        <h3 class="item-title" style="color: #fff;" data-i18n="edu_uninter_title">UNINTER - Centro Universitário Internacional</h3>
-                        <p class="item-subtitle" style="color: #ccc;"><span class="item-icon">🎓</span> <span data-i18n="edu_uninter_course">Engenharia de Software (Graduação)</span></p>
-                        <p style="color: #bbb;" data-i18n="edu_uninter_desc">Atualmente cursando, aprofundando conhecimentos em arquitetura de software, padrões de projeto e metodologias ágeis para criar soluções robustas e escaláveis.</p>
+                        <span class="timeline-type" data-i18n="journey_smti_type">Experiência Profissional</span>
+                        <h3 class="item-title" data-i18n="journey_smti_company">Prefeitura de Porto Velho / SMTI</h3>
+                        <p class="item-subtitle">
+                            <span data-i18n="journey_smti_role">Estagiário em Desenvolvimento de Software</span>
+                            <span class="timeline-period" data-i18n="journey_smti_period">Mai 2026 — Atual</span>
+                        </p>
+                        <ul class="timeline-list">
+                            <li data-i18n="journey_smti_desc1">Desenvolvimento e evolução de interfaces para sistemas de gestão.</li>
+                            <li data-i18n="journey_smti_desc2">Implementação de formulários e fluxos com regras de negócio.</li>
+                            <li data-i18n="journey_smti_desc3">Refatoração de layouts com foco em responsividade, organização e experiência do usuário.</li>
+                        </ul>
                     </div>
 
                     <div class="timeline-item">
-                        <h3 class="item-title" style="color: #fff;" data-i18n="edu_ifro_title">IFRO - Instituto Federal de Rondônia</h3>
-                        <p class="item-subtitle" style="color: #ccc;"><span class="item-icon">🛠️</span> <span data-i18n="edu_ifro_course">Técnico em Informática (Concluído)</span></p>
-                        <p style="color: #bbb;" data-i18n="edu_ifro_desc">Formação técnica que me deu a base sólida em lógica de programação, banco de dados, redes e manutenção, iniciando minha jornada no mundo da tecnologia.</p>
+                        <span class="timeline-type" data-i18n="journey_uninter_type">Graduação</span>
+                        <h3 class="item-title" data-i18n="journey_uninter_title">UNINTER</h3>
+                        <p class="item-subtitle">
+                            <span data-i18n="journey_uninter_course">Engenharia de Software</span>
+                            <span class="timeline-period" data-i18n="journey_uninter_period">2025 — Atual</span>
+                        </p>
+                        <p class="timeline-description" data-i18n="journey_uninter_desc">Graduação voltada a fundamentos de engenharia, arquitetura de software e desenvolvimento de soluções escaláveis.</p>
                     </div>
 
                     <div class="timeline-item">
-                        <h3 class="item-title" style="color: #fff;" data-i18n="edu_interest_title">Interesse em Desenvolvimento</h3>
-                        <p class="item-subtitle" style="color: #ccc;"><span class="item-icon">🚀</span> <span data-i18n="edu_interest_sub">Aprendizado Contínuo</span></p>
-                        <p style="color: #bbb;" data-i18n="edu_interest_desc">Foco constante em desenvolvimento <strong>web</strong> com React.js e Node.js, e em desenvolvimento <strong>mobile</strong> com <strong>Flutter (Dart)</strong>, buscando sempre as tecnologias mais atuais do mercado.</p>
-                    </div>
-
-                    <div class="timeline-item">
-                        <h3 class="item-title" style="color: #fff;" data-i18n="edu_lang_title">Idiomas</h3>
-                        <p class="item-subtitle" style="color: #ccc;"><span class="item-icon">🌎</span> <span data-i18n="edu_lang_sub">Leitura Técnica</span></p>
-                        <p style="color: #bbb;" data-i18n="edu_lang_desc">Português nativo. Inglês (Em curso) e Espanhol básico, focados na leitura de documentações técnicas.</p>
-                    </div>
-                </div>
-                
-                <div style="margin-top: 40px; text-align: center;">
-                    <a id="btn-curriculo" href="https://drive.google.com/file/d/1qcqPE4F0TENEZ5sWcJUqQ8sNaW2Rdw2V/view?usp=sharing" target="_blank" class="cta-button" data-i18n="btn_resume">Ver Currículo em PDF</a>
-                </div>
-
-                <div class="skills" style="margin-top: 80px;">
-                    <h2 style="text-align: center; margin-bottom: 40px;" data-i18n="skills_title">Competências Técnicas</h2>
-                    <div class="skills-grid">
-                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>Node.js</span>
-                        <span>Kotlin</span><span>Flutter</span><span>Dart</span><span>MySQL</span><span>VS Code</span><span>Firebase</span>
+                        <span class="timeline-type" data-i18n="journey_ifro_type">Formação Técnica</span>
+                        <h3 class="item-title" data-i18n="journey_ifro_title">IFRO</h3>
+                        <p class="item-subtitle">
+                            <span data-i18n="journey_ifro_course">Técnico em Informática</span>
+                            <span class="timeline-period" data-i18n="journey_ifro_period">Concluído em 2025</span>
+                        </p>
+                        <p class="timeline-description" data-i18n="journey_ifro_desc">Formação técnica com base em programação, banco de dados e redes de computadores.</p>
                     </div>
                 </div>
             </div>
@@ -213,7 +208,7 @@
                                 <span>React</span><span>TypeScript</span><span>Vite</span>
                             </div>
                             <div class="project-links">
-                                <a href="https://abrigo-do-wlad-website.vercel.app" class="btn-primary" target="_blank" data-i18n="btn_view_site">Ver Site</a>
+                                <a href="https://abrigodowlad.com.br" class="btn-primary" target="_blank" data-i18n="btn_view_site">Ver Site</a>
                                 <a href="https://github.com/AlanClimaco/abrigo-do-wlad-website" class="btn-secondary" target="_blank" data-i18n="btn_view_code">Ver Código</a>
                             </div>
                         </div>

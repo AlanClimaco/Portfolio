@@ -4,19 +4,40 @@ document.addEventListener('DOMContentLoaded', function() {
     const translations = {
         "pt": {
             // Navegação
-            "nav_home": "Sobre Mim",
-            "nav_education": "Formação",
+            "nav_about": "Sobre Mim",
+            "nav_journey": "Trajetória",
             "nav_portfolio": "Portfólio",
             "nav_contact": "Contato",
             
             // Hero
-            "hero_subtitle": "Desenvolvedor de Software Web & Mobile",
+            "hero_subtitle": "Desenvolvedor de Software | Web & Mobile",
             "hero_btn": "Ver Portfólio",
             
             // Sobre
             "about_title": "Sobre Mim",
-            "about_p1": "Sou estudante de <strong>Engenharia de Software na UNINTER</strong> e técnico em <strong>Informática pelo IFRO (Instituto Federal de Rondônia)</strong>. Minha atuação é focada no desenvolvimento de soluções <strong>Mobile (Android)</strong> e <strong>Web</strong>, com sólido conhecimento em redes de computadores e infraestrutura.",
-            "about_p2": "Estou sempre buscando aprender e colaborar em projetos inovadores. Atualmente, estou disponível para novos desafios e oportunidades profissionais no desenvolvimento de software.",
+            "about_p1": "Sou desenvolvedor de software com atuação em desenvolvimento web e mobile, focado em criar aplicações, sistemas e interfaces responsivas com código organizado e soluções práticas.",
+            "about_p2": "Também atuo em projetos independentes e freelance, desenvolvendo soluções sob medida para necessidades reais. Minha trajetória combina experiência prática, formação acadêmica e base técnica, e estou disponível para projetos freelance e novas colaborações.",
+            
+            // Trajetória
+            "journey_title": "Minha Trajetória",
+            "journey_subtitle": "Experiência profissional e formação que construíram minha atuação em desenvolvimento de software.",
+            "journey_smti_type": "Experiência Profissional",
+            "journey_smti_company": "Prefeitura de Porto Velho / SMTI",
+            "journey_smti_role": "Estagiário em Desenvolvimento de Software",
+            "journey_smti_period": "Mai 2026 — Atual",
+            "journey_smti_desc1": "Desenvolvimento e evolução de interfaces para sistemas de gestão.",
+            "journey_smti_desc2": "Implementação de formulários e fluxos com regras de negócio.",
+            "journey_smti_desc3": "Refatoração de layouts com foco em responsividade, organização e experiência do usuário.",
+            "journey_uninter_type": "Graduação",
+            "journey_uninter_title": "UNINTER",
+            "journey_uninter_course": "Engenharia de Software",
+            "journey_uninter_period": "2025 — Atual",
+            "journey_uninter_desc": "Graduação voltada a fundamentos de engenharia, arquitetura de software e desenvolvimento de soluções escaláveis.",
+            "journey_ifro_type": "Formação Técnica",
+            "journey_ifro_title": "IFRO",
+            "journey_ifro_course": "Técnico em Informática",
+            "journey_ifro_period": "Concluído em 2025",
+            "journey_ifro_desc": "Formação técnica com base em programação, banco de dados e redes de computadores.",
             
             // Destaques GitHub
             "github_title": "Destaques do GitHub",
@@ -24,31 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
             "btn_repo": "Ver Repositório",
             "btn_proj": "Ver Projeto",
             "btn_github_full": "Ver GitHub Completo",
-            
-            // Formação
-            "edu_title": "Minha Formação",
-            "edu_subtitle": "Uma trajetória focada em aprendizado contínuo e aprimoramento técnico.",
-            
-            "edu_uninter_title": "UNINTER - Centro Universitário Internacional",
-            "edu_uninter_course": "Engenharia de Software (Graduação)",
-            "edu_uninter_desc": "Atualmente cursando, aprofundando conhecimentos em arquitetura de software, padrões de projeto e metodologias ágeis para criar soluções robustas e escaláveis.",
-            
-            "edu_ifro_title": "IFRO - Instituto Federal de Rondônia",
-            "edu_ifro_course": "Técnico em Informática (Concluído)",
-            "edu_ifro_desc": "Formação técnica que me deu a base sólida em lógica de programação, banco de dados, redes e manutenção, iniciando minha jornada no mundo da tecnologia.",
-            
-            "edu_interest_title": "Interesse em Desenvolvimento",
-            "edu_interest_sub": "Aprendizado Contínuo",
-            "edu_interest_desc": "Foco constante em desenvolvimento <strong>web</strong> com React.js e Node.js, e em desenvolvimento <strong>mobile</strong> com <strong>Flutter (Dart)</strong>, buscando sempre as tecnologias mais atuais do mercado.",
-            
-            "edu_lang_title": "Idiomas",
-            "edu_lang_sub": "Leitura Técnica",
-            "edu_lang_desc": "Português nativo. Inglês e Espanhol em nível básico, focados na leitura de documentações técnicas.",
-
-            "btn_resume": "Ver Currículo em PDF",
-
-            // Skills
-            "skills_title": "Competências Técnicas",
 
             // Portfólio Geral
             "portfolio_title": "Meu Portfólio",
@@ -99,19 +95,40 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         "en": {
             // Navigation
-            "nav_home": "About Me",
-            "nav_education": "Education",
+            "nav_about": "About Me",
+            "nav_journey": "Journey",
             "nav_portfolio": "Portfolio",
             "nav_contact": "Contact",
             
             // Hero
-            "hero_subtitle": "Web & Mobile Software Developer",
+            "hero_subtitle": "Software Developer | Web & Mobile",
             "hero_btn": "View Portfolio",
             
             // About
             "about_title": "About Me",
-            "about_p1": "I am a <strong>Software Engineering student at UNINTER</strong> and hold a <strong>Technical Diploma in Informatics from IFRO (Federal Institute of Rondônia)</strong>. My focus is on developing <strong>Mobile (Android)</strong> and <strong>Web</strong> solutions, with solid knowledge in computer networks and infrastructure.",
-            "about_p2": "I am always seeking to learn and collaborate on innovative projects. Currently available for new challenges and professional opportunities in software development.",
+            "about_p1": "I am a software developer working with web and mobile development, focused on creating applications, systems, and responsive interfaces with organized code and practical solutions.",
+            "about_p2": "I also work on independent and freelance projects, building custom solutions for real needs. My journey combines hands-on experience, academic education, and technical foundations, and I am available for freelance projects and new collaborations.",
+            
+            // Journey
+            "journey_title": "My Journey",
+            "journey_subtitle": "Professional experience and education that shaped my work in software development.",
+            "journey_smti_type": "Professional Experience",
+            "journey_smti_company": "Porto Velho City Hall / SMTI",
+            "journey_smti_role": "Software Development Intern",
+            "journey_smti_period": "May 2026 — Present",
+            "journey_smti_desc1": "Development and evolution of interfaces for management systems.",
+            "journey_smti_desc2": "Implementation of forms and flows with business rules.",
+            "journey_smti_desc3": "Layout refactoring focused on responsiveness, organization, and user experience.",
+            "journey_uninter_type": "Bachelor's Degree",
+            "journey_uninter_title": "UNINTER",
+            "journey_uninter_course": "Software Engineering",
+            "journey_uninter_period": "2025 — Present",
+            "journey_uninter_desc": "Degree focused on engineering fundamentals, software architecture, and scalable solution development.",
+            "journey_ifro_type": "Technical Education",
+            "journey_ifro_title": "IFRO",
+            "journey_ifro_course": "Technical Diploma in Informatics",
+            "journey_ifro_period": "Completed in 2025",
+            "journey_ifro_desc": "Technical education with a foundation in programming, databases, and computer networks.",
             
             // GitHub Highlights
             "github_title": "GitHub Highlights",
@@ -119,31 +136,6 @@ document.addEventListener('DOMContentLoaded', function() {
             "btn_repo": "View Repository",
             "btn_proj": "View Project",
             "btn_github_full": "View Full GitHub",
-            
-            // Education
-            "edu_title": "Education",
-            "edu_subtitle": "A journey focused on continuous learning and technical improvement.",
-            
-            "edu_uninter_title": "UNINTER - International University Center",
-            "edu_uninter_course": "Software Engineering (Bachelor's)",
-            "edu_uninter_desc": "Currently enrolled, focusing on software architecture, design patterns, and agile methodologies to create robust and scalable solutions.",
-            
-            "edu_ifro_title": "IFRO - Federal Institute of Rondônia",
-            "edu_ifro_course": "Technical Diploma in Informatics",
-            "edu_ifro_desc": "Technical training that provided a solid foundation in programming logic, databases, networks, and maintenance, starting my journey in the tech world.",
-            
-            "edu_interest_title": "Development Interests",
-            "edu_interest_sub": "Continuous Learning",
-            "edu_interest_desc": "Constant focus on <strong>web</strong> development with React.js and Node.js, and <strong>mobile</strong> development with <strong>Flutter (Dart)</strong>, always seeking the most current technologies in the market.",
-            
-            "edu_lang_title": "Languages",
-            "edu_lang_sub": "Technical Reading",
-            "edu_lang_desc": "Native Portuguese. Basic English and Spanish, focused on technical documentation reading.",
-
-            "btn_resume": "View Resume in PDF",
-
-            // Skills
-            "skills_title": "Technical Skills",
 
             // Portfolio General
             "portfolio_title": "My Portfolio",
@@ -194,19 +186,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // Lógica de troca de idiomas
-    const resumeLinks = {
-        "pt": "/assets/docs/Alan-do-Nascimento-Climaco.pdf",
-        "en": "/assets/docs/Alan-Climaco.pdf"
-    };
-
     const flags = {
         "us": "https://paises.ibge.gov.br/img/bandeiras/US.gif",
         "br": "https://paises.ibge.gov.br/img/bandeiras/BR.gif"
     };
 
     const langToggleBtn = document.getElementById('language-toggle');
-    const resumeBtn = document.getElementById('btn-curriculo');
     let currentLang = localStorage.getItem('site_lang') || 'pt';
 
     function updateLanguage(lang) {
@@ -226,11 +211,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 element.innerHTML = translations[lang][key];
             }
         });
-
-        // Atualiza o link do currículo
-        if (resumeBtn) {
-            resumeBtn.href = resumeLinks[lang];
-        }
 
         // Salva a preferência
         localStorage.setItem('site_lang', lang);

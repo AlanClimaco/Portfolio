@@ -22,44 +22,38 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Scroll Spy (Navegação Inteligente)
-    const sections = document.querySelectorAll('section[id]'); 
+    const navLinks = document.querySelectorAll('.menu-principal a[href^="#"]');
     
     function scrollActive() {
         const scrollY = window.pageYOffset;
+
+        const linkedSections = Array.from(navLinks)
+            .map(link => {
+                const id = link.getAttribute('href').replace('#', '');
+                const section = document.getElementById(id);
+                return section ? { id, top: section.offsetTop - 150 } : null;
+            })
+            .filter(item => item)
+            .sort((a, b) => a.top - b.top);
         
-        // Lógica especial para a Home
-        const formacaoSection = document.getElementById('formacao');
-        const homeLink = document.querySelector('.menu-principal a[href="#home"]');
-        
-        // Define onde termina a Home (início da formação menos o header)
-        const formacaoTop = formacaoSection ? formacaoSection.offsetTop - 150 : 999999;
+        if (!linkedSections.length) return;
 
-        // Se o scroll estiver antes da seção Formação, ativa o link Home
-        if (scrollY < formacaoTop) {
-            document.querySelectorAll('.menu-principal a').forEach(a => a.classList.remove('active'));
-            if(homeLink) homeLink.classList.add('active');
-            return;
-        }
+        const firstSection = linkedSections[0];
+        let activeSectionId = firstSection.id;
 
-        // Lógica padrão para as outras seções
-        sections.forEach(current => {
-            const sectionHeight = current.offsetHeight;
-            const sectionTop = current.offsetTop - 150;
-            const sectionId = current.getAttribute('id');
-            
-            if(sectionId === 'home') return;
-
-            const menuLink = document.querySelector('.menu-principal a[href*=' + sectionId + ']');
-
-            if (menuLink) {
-                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    document.querySelectorAll('.menu-principal a').forEach(a => a.classList.remove('active'));
-                    menuLink.classList.add('active');
-                }
+        linkedSections.forEach(section => {
+            if (scrollY >= section.top) {
+                activeSectionId = section.id;
             }
         });
+
+        navLinks.forEach(a => a.classList.remove('active'));
+
+        const menuLink = document.querySelector('.menu-principal a[href="#' + activeSectionId + '"]');
+        if (menuLink) menuLink.classList.add('active');
     }
     window.addEventListener('scroll', scrollActive);
+    scrollActive();
 
     // Formulário de Contato
     const contactForm = document.getElementById('form-contato');
