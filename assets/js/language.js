@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_wlad_desc": "Plataforma web oficial para adoção e transparência do abrigo. Desenvolvida com <strong>React e TypeScript</strong>, focando em alta performance. Utiliza <em>Vite</em> para build e <em>CSS Modules</em>.",
             "proj_myexpenses_title": "Meus Gastos PWA",
             "proj_myexpenses_desc": "Aplicativo web progressivo para gestão financeira. Desenvolvido com arquitetura <strong>offline-first</strong>, permite controle de despesas, metas e importação 100% local de extratos bancários.",
-            "proj_rotaro_title": "Rondônia Turismo e Pesca",
-            "proj_rotaro_desc": "O guia definitivo para explorar Rondônia. Descubra cachoeiras e locais de pesca com mapas interativos.",
+            "proj_dak_title": "Dev Automation Kit",
+            "proj_dak_desc": "Suíte desktop de diagnósticos de código e gerador de contexto para Inteligências Artificiais. Desenvolvida com arquitetura 100% local e offline, automatiza auditorias estáticas e compila bases de código com estimativa precisa de tokens.",
             "proj_org_title": "Organizador de Arquivos",
             "proj_org_desc": "Script Python que roda em background (Windows Service) organizando downloads automaticamente por extensão.",
             "proj_rec_desc": "Ferramenta gráfica de análise forense para recuperação de dados em baixo nível (Raw Drive Analysis).",
@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_eletron_desc": "Simulação de e-commerce com carrinho de compras e design moderno.",
             "proj_mii_title": "MiiSideKick",
             "proj_mii_desc": "Um assistente de desktop interativo e não-intrusivo. Desenvolvido para ser leve e com design moderno, ele auxilia em rotinas do sistema sem interromper seu fluxo de trabalho.",
+            "tag_ai_integration": "Integração IA",
             
             // Botões Projetos
             "btn_view_site": "Ver Site",
@@ -71,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "btn_download": "Baixar Projeto",
             "btn_code": "Código",
             "btn_view_project": "Ver Projeto",
+            "btn_privacy": "Privacidade",
 
             // CTA Final
             "cta_github_title": "Gostou do que viu?",
@@ -145,8 +147,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_wlad_desc": "Official web platform for adoption and shelter transparency. Developed with <strong>React and TypeScript</strong>, focusing on high performance. Uses <em>Vite</em> for build and <em>CSS Modules</em>.",
             "proj_myexpenses_title": "My Expenses PWA",
             "proj_myexpenses_desc": "A progressive web app for personal finance management. Developed with an <strong>offline-first</strong> architecture, it features expense tracking, financial goals, and 100% local processing of bank statements.",
-            "proj_rotaro_title": "Rondônia Tourism & Fishing",
-            "proj_rotaro_desc": "The definitive guide to explore Rondônia. Discover waterfalls and fishing spots with interactive maps.",
+            "proj_dak_title": "Dev Automation Kit",
+            "proj_dak_desc": "Desktop suite for code diagnostics and AI context generation. Built with a 100% local and offline architecture, it automates static audits and compiles codebases with precise token estimation.",
             "proj_org_title": "File Organizer",
             "proj_org_desc": "Python script running in the background (Windows Service) that automatically organizes downloads by extension.",
             "proj_rec_desc": "Forensic analysis graphical tool for low-level data recovery (Raw Drive Analysis).",
@@ -154,6 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "proj_eletron_desc": "E-commerce simulation with shopping cart and modern design.",
             "proj_mii_title": "MiiSideKick",
             "proj_mii_desc": "An interactive and non-intrusive desktop assistant. Designed to be lightweight and modern, it helps with system routines without interrupting your workflow.",
+            "tag_ai_integration": "AI Integration",
             
             // Buttons Projects
             "btn_view_site": "View Site",
@@ -162,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "btn_download": "Download Project",
             "btn_code": "Code",
             "btn_view_project": "View Project",
+            "btn_privacy": "Privacy Policy",
 
             // CTA Final
             "cta_github_title": "Liked what you saw?",

@@ -168,9 +168,17 @@
 
 .project-card .project-links {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
     margin-top: auto;
+}
+
+.project-card .project-links a {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 12px 20px;
 }
 
 /* --- Modal --- */
